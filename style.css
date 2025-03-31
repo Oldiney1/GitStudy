@@ -122,10 +122,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape{
+    position: initial;
 }
 
 footer p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 10px;
 }
