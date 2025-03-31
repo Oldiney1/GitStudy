@@ -54,6 +54,21 @@ section{
     border-style: groove;
 }
 
+.bolo{
+    background-image: url(images/bolo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.brigadeiro{
+    background-image: url(images/brigadeiro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
 section div{
     width: 350px;
     height: 250px;
@@ -84,6 +99,22 @@ section div a img{
     width: auto;
 }
 
+.ingredientes{
+    display: block;
+    color: white;
+    padding-left: 20px;
+    height: auto;
+}
+
+.bolo, .brigadeiro{
+    transition: transform 0.3s ease;
+}
+
+.bolo:hover, .brigadeiro:hover{
+    transform: translateY(-5%);
+}
+
+
 /*  Parte do footer */
 
 footer{
@@ -96,4 +127,5 @@ footer{
 footer p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     margin-top: 70px;
+    font-size: 10px;
 }
